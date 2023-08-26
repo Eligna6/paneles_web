@@ -96,7 +96,7 @@
                         <!-- To make this form functional, sign up at-->
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
-                        <form class="form-subscribe" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <form class="form-subscribe" id="contactForm">
                             <!-- Email address input-->
                             <div class="row">
                                 <div class="col">
@@ -107,7 +107,7 @@
                                     <div class="invalid-feedback text-white" data-sb-feedback="emailAddress:email">
                                         La dirección de correo electrónico no es válida.</div>
                                 </div>
-                                <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton"
+                                <div class="col-auto"><button class="btn btn-primary btn-lg" id="submitButton"
                                         type="submit">Enviar</button></div>
                             </div>
                             <!-- Submit success message-->
@@ -313,6 +313,8 @@
             </div>
         </div>
     </footer>
+    <!-- jsPDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
